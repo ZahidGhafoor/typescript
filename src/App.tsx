@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './Bring/Header/Header'
+import "./App.css"
+import NavBar from './Bring/Navbar/NavBar'
+import AddCategory from './Bring/Category/AddCategory'
+import Categories from './Bring/Category/Categories'
+// import Button from './Components/Button'
+// import Greet from './Components/Greet'
+// import Counter from './Components/state/Counter'
+// import LogedIn from './Components/state/LogedIn'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main__app'>
+     {/* <Greet name="Zahid" messages={30} logedIn={true} />
+    <Button styles={{border:"1px solid red"}} handleclick={()=>{console.log("ButtonClicked");
+    }}/>
+
+    <LogedIn/>
+    <hr />
+    <Counter/> */}
+
+  <Header/>
+  <NavBar/>
+  {/* <AddCategory/> */}
+  <Categories/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

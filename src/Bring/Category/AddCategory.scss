@@ -1,0 +1,170 @@
+.categories__container {
+  background-color: #eeeeee;
+  padding-bottom: 2rem;
+  .data {
+    max-width: 1300px;
+    margin: 0 auto;
+    .title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 40px 0;
+      color: #3f4047;
+    }
+    .back {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      border: none;
+      width: 125px;
+      height: 27px;
+      border-radius: 3px;
+      background-color: #ff6c2f !important;
+      border: 1px solid #ff6c2f !important;
+      outline: none;
+      .back__icon {
+        height: 12px;
+      }
+      .back__text {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+    .form {
+      background-color: white;
+      margin-top: 20px;
+      margin-bottom: 3rem;
+      padding: 2.3rem 13rem;
+      padding-right: 2rem;
+      .upper {
+        .first__field {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          margin-bottom: 1rem;
+          justify-content: space-between;
+
+          .titlee {
+            font-size: 14px;
+            font-weight: 300;
+            width: 200px;
+            text-align: right;
+            color: rgba(0, 0, 0, 0.753);
+            text-align: start;
+          }
+          .check {
+            margin-left: -3rem;
+          }
+          .MuiOutlinedInput-root {
+            padding: 0px;
+            border-color: #ced4da;
+            width: 100%;
+          }
+          .MuiAutocomplete-root {
+            width: 100%;
+          }
+          input[type="file"] {
+            display: none;
+          }
+          label {
+            background-color: #34bfa3;
+            border-color: #34bfa3;
+            border-radius: 5px;
+            height: 35px;
+            font-size: 13px;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+          }
+          .order {
+            width: 100%;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            outline: none;
+            line-height: 1.25;
+            color: #495057;
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+          }
+        }
+        .second {
+          justify-content: flex-start;
+        }
+      }
+      .bottom {
+        position: relative;
+        .bottom__first {
+          position: relative;
+          .heading {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #575962;
+            position: absolute;
+            left: -180px;
+          }
+          .first__field {
+            display: flex;
+            align-items: center;
+
+            padding: 2rem 0;
+            margin-bottom: 1rem;
+            justify-content: space-between;
+
+            gap: 2rem;
+
+            .bottom__title {
+              font-size: 14px;
+              font-weight: 300;
+              width: 200px;
+              text-align: right;
+              color: rgba(0, 0, 0, 0.753);
+              text-align: start;
+            }
+            .bottom__order {
+              width: 100%;
+              padding: 0.5rem 1rem;
+              font-size: 1rem;
+              outline: none;
+              line-height: 1.25;
+              color: #495057;
+              background-color: #fff;
+              border: 1px solid #ced4da;
+              border-radius: 0.25rem;
+            }
+          }
+        }
+        .btns {
+          margin-bottom: 3rem;
+          position: relative;
+          .btn{
+            position: absolute;
+            left: -180px;
+            display: flex;
+            gap: 0.3rem;
+
+          }
+          .btn1 {
+            padding: 0.35rem 0.75rem;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 0.2rem;
+            border: none;
+            color: white;
+            margin-right: 4px;
+
+            background-color: #34bfa3;
+            border-color: #34bfa3;
+          }
+          .btn2{
+            background-color: #1192f6;
+            border-color: #0a8cf0;
+          }
+        }
+      }
+    }
+  }
+}
