@@ -174,7 +174,19 @@ const rows = [
 
 
 
+// const add =()=>{
 
+//   let s:number= 1
+//   let e:number =10
+
+//   if(s<=e){
+//      add((s+1))
+//   }
+//   console.log("number are ",s );
+// }
+// add()
+
+// console.log("hlo");
 
 const Categories = () => {
 
