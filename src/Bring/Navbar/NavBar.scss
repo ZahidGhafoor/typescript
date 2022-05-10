@@ -1,31 +1,40 @@
 .navbar__container{
-    background-color: #FECC4C;
+    background-color: gray;
     font-size: 14px;
     font-weight: 300;
-    box-shadow: 0 1px 15px 1px rgb(81 77 92 / 50%);
+    // box-shadow: 0 1px 15px 1px rgb(81 77 92 / 50%);
     .tabs{
         max-width: 1300px;
         margin: 0 auto;
         display: flex;
-        height: 70px;
+        height: 80px;
         align-items: center;
         justify-content: space-between;
+        .logo {
+            .main__logo {
+              height: 58px;
+            }
+           
+          }
         
         .tab1{
-            padding: 0 20px;
+            // padding: 0 25px;
             padding-left: 0;
             color: white;
+            font-weight: 700;
+
             cursor: pointer;
         }
         .tab2{
             display: flex;
-            padding: 0 20px;
+            // padding: 0 20px;
             align-items: center;
             cursor: pointer;
             .text{
                 color: white;
                 max-width: 100px;
-                margin-right: 1rem;
+                margin-right: 0.2rem;
+                font-weight: 700;
             }
             .bottomSign{
                 color: white;

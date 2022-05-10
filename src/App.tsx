@@ -20,7 +20,7 @@ const App = () => {
     <hr />
     <Counter/> */}
 
-  <Header/>
+  {/* <Header/> */}
   <NavBar/>
   {/* <AddCategory/> */}
   <Categories/>

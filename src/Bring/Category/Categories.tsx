@@ -192,7 +192,10 @@ const Categories = () => {
   return (
     <div className="categories__container">
         <div className="data">
-        <div className="cat__title">Category Management (366)</div>
+       <div className="cat__header">
+       <div className="cat__title">Category Management (366)</div>
+        <div className="addNew">+  ADD NEW</div>
+       </div>
         <div className="cat__data">
             <div className="upper">
                 <div className="form__input">
@@ -205,6 +208,11 @@ const Categories = () => {
                         <label htmlFor="input1">Name</label>
                         <input type="text" id='input1' className="left__input" />
                         </div>
+                        <div className="btn">
+                            <button className="btn1">Search</button>
+                            <button className="btn1 btn2">Excel Export</button>
+                            </div>
+                        
                     </div>
                     <div className="right">
                     <div className="input1">
@@ -223,14 +231,11 @@ const Categories = () => {
 
 
                 </div>
-                <hr className="btn__upper" />
-                    <div className="btn">
-                            <button className="btn1">Search</button>
-                            <button className="btn1 btn2">Excel Export</button>
-                            </div>
+                {/* <hr className="btn__upper" /> */}
+                    
                 
             </div>
-            <div className="addNew">+  ADD NEW</div>
+   
             <div className="table">
             <Paper sx={{ width: '100%', overflow: 'hidden' }}>
       <TableContainer>

@@ -2,10 +2,17 @@ import React from 'react'
 import "./NavBar.scss"
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
+import Avatar from '@mui/material/Avatar';
+import logo from "../Assets/himonk.svg"
+
+
 const NavBar = () => {
   return (
     <div className="navbar__container">
         <div className="tabs">
+        <div className="logo">
+          <img src={logo} alt="" className="main__logo" />
+        </div>
             <div className="tab1">Dashboard</div>
             <div className="tab2">
                 <div className="text">Content Management</div>
@@ -43,6 +50,9 @@ const NavBar = () => {
                     <KeyboardArrowDownIcon className='bottomSign'/>
                 </div>
             </div>
+            <div className="logo">
+            <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+        </div>
         </div>
     </div>
   )

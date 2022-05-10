@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.scss"
 
-import logo from "../Assets/download.png"
+import logo from "../Assets/himonk.svg"
 
 const Header = () => {
   return (
