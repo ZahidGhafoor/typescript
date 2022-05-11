@@ -12,9 +12,16 @@
     overflow: hidden;
   }
 
+  .MuiTableCell-head{
+    color: #1e2731 !important;
+    font-weight: 600;
+  }
+
+
   .MuiTableCell-root {
-    font-weight: 500 !important;
+    // font-weight: 500 !important;
     border: 0px;
+    color: gray;
   }
   .data {
     max-width: 1300px;
